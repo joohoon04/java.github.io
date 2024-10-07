@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Breaker Game</title>
+    <link rel="stylesheet" type="text/css" href="2.css">
+</head>
+<body>
+    <canvas id="myCanvas" width="850" height="620"></canvas>
+    <button class="btn green rounded" id="runButton">Start game</button>
+    <button class="btn green rounded" id="pauseButton">Pause game</button>
+    <div id="message" class="message">YOU WIN, CONGRATULATIONS!</div>
+    
+    <div class="logo">
+        <a href="index.html">SPACE: TRASH</a>
+    </div>
+    <div class="container"> 
+        <div class="page" id="gamePage">
+            <label for="layer_popup" class="game-play-trigger"><h1>Choose Mode</h1></label>
+            <input type="checkbox" id="layer_popup">
+            <div id="layer_bg">
+                <div id="popup">
+                    <label for="layer_popup">X</label>
+                    <h2>Choose Mode</h2>
+                    <a href="index.html">INDEX</a>,
+                    <a href="end.html">About</a>,
+                    <a href="gm.html">Easy Mode</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <img class="qkd" src="img/방향키.png">
+                <img class="ak" src="img/마우스.png">
+                <P>
+                    방행키 또는 마우스로 좌우로 움직일 수 있습니다
+                </P>
+            </li>
+            <li>
+                <p>
+                    우주 쓰레기를 없애서 우주를 깨끗하게 만들어봅시다
+                </p>
+            </li>
+        </ul>
+    </footer>
+    <script src="java2.js">
+
+    </script>
